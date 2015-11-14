@@ -1,0 +1,230 @@
+// GENERAL
+
+header {
+  height: 100px;
+  border-bottom: 1px solid $borderStaple;
+}
+
+a {
+  text-decoration: none;
+  color: $borderStaple;
+  font-weight: bold;
+  &:visited {
+    color: $borderStaple;
+  }
+}
+
+span {
+  color: $borderStaple;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  color: $borderStaple;
+  font-size: .5em;
+  font-family: $textFont;
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+.sub-content {
+  font-family: $textFont;
+  text-align: left;
+  h2 {
+    color: $borderStaple;
+    font-weight: bold;
+    opacity: .5;
+  }
+}
+
+// HEADING
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  img {
+    width: 100%;
+    opacity: .75;
+  }
+}
+
+.logo {
+  font-size: 1em;
+  color: $borderStaple;
+  opacity: .75;
+  h1 {
+    font-family: $h1Font;
+    margin: 5px 0 0 20px;
+  }
+  h2 {
+    font-family: $h2Font;
+    margin: 5px 0 0 30px;
+  }
+}
+
+// NAVIGATION
+nav {
+  section {
+    width: 29%;
+    float: left;
+  }
+  ul {
+    width: 69%;
+    height: 100px;
+    float: right;
+    -webkit-columns: 5;
+    -webkit-column-gap: 0;
+    -webkit-column-rule: 0;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    text-align: center;
+    padding-top: 35px;
+    width: 100%;
+    height: 65px;
+    display: inline-block;
+    transition: all 1s ease-in-out;
+    &:hover {
+      background-color: #DBACB9;
+      font-size: 1.25em;
+    }
+    a {
+      font-family: $textFont;
+      color: $borderStaple;
+      &:visited {
+      color: $borderStaple;
+      }
+    }
+  }
+}
+
+// ABOUT
+.about {
+  width: 80%;
+  margin: 0 auto;
+  blockquote {
+    color: $borderStaple;
+    font-size: 2em;
+    font-family: $textFont;
+    font-weight: normal;
+    margin-bottom: 15px;
+  }
+  h4 {
+    margin: 0;
+    padding: 0;
+    font-size: .75;
+    opacity: .5;
+    font-family: $textFont;
+    font-weight: normal;
+  }
+  img {
+    width: 20%;
+    margin: 30px;
+    border-radius: 100%;
+    float: left;
+    display: inline-block;
+    opacity: .65;
+  }
+}
+
+// COMING SOON
+.comingSoon {
+  font-family: $textFont;
+  text-align: center;
+  h1 {
+    color: $borderStaple;
+    font-weight: bold;
+    opacity: .75;
+  }
+}
+
+// CONTACT
+.contact {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.big-col-2 {
+  width: 45%;
+  display: inline-block;
+}
+
+.contactAside {
+  width: 35%;
+  display: inline-block;
+  float: right;
+}
+
+.big-col-2, .contactAside {
+  vertical-align: bottom;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 15% 0 0 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+    // PHONE
+.contact-info li.phone a {
+  background-image: url('../icons/old-phone.svg');
+  opacity: .75;
+}
+
+    // EMAIL
+.contact-info li.mail a {
+  background-image: url('../icons/mail.svg');
+  opacity: .75;
+}
+
+  // GITHUB
+  .contact-info li.github a {
+  background-image: url('../icons/github.svg');
+  opacity: .75;
+}
+
+    // TWITTER
+.contact-info li.twitter a {
+  background-image: url('../icons/twitter.svg');
+  opacity: .75;
+}
+
+    // LINKED IN
+  .contact-info li.linkedIn a {
+  background-image: url('../icons/linkedin.svg');
+  opacity: .75;
+}
+
+    // INSTAGRAM
+  .contact-info li.insta a {
+  background-image: url('../icons/instagram.svg');
+  opacity: .75;
+}
+
+
+// PORTFOLIO
+.portfolio {
+  width: 80%;
+  margin: 0 auto;
+}
