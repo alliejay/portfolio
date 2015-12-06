@@ -393,9 +393,10 @@ footer {
   margin: 0 auto;
   text-align: center;
   position: relative; }
-  .wrapper img {
-    width: 100%;
-    opacity: .75; }
+
+#headerPic {
+  width: 100%;
+  opacity: .75; }
 
 .logo {
   font-size: 1em;
@@ -529,3 +530,44 @@ nav li {
 .portfolio {
   width: 80%;
   margin: 0 auto; }
+
+#portfolioList {
+  list-style-type: none; }
+  #portfolioList li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #965163; }
+
+.pfLI {
+  height: auto; }
+
+.title {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 1.6em; }
+
+.screenshot {
+  display: inline-block;
+  float: left;
+  width: 45%;
+  -webkit-box-shadow: 10px 10px 32px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 32px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 32px -13px rgba(0, 0, 0, 0.75);
+  opacity: .8; }
+  .screenshot:hover {
+    opacity: 1; }
+
+.desc {
+  display: inline-block;
+  width: 45%;
+  float: right; }
+
+.screenshot, .desc {
+  vertical-align: top; }
+
+.subHead {
+  color: #965163;
+  font-size: .9em; }

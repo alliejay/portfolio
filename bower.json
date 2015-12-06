@@ -1,0 +1,28 @@
+{
+  "name": "Personal Website",
+  "main": "index.html",
+  "homepage": "https://alliejay.github.io",
+  "authors": [
+    "Alison Arsenault"
+  ],
+  "description": "",
+  "moduleType": [],
+  "keywords": [
+    "portfolio",
+    "blog"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "moment": "~2.10.6",
+    "underscore": "~1.8.3"
+  }
+}

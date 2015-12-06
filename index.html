@@ -5,7 +5,31 @@
     <title>Allie J. Arsenault | Web Development</title>
     <link href='https://fonts.googleapis.com/css?family=Calligraffitti|Merienda+One|Lato:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" media="screen" title="stylesheet" charset="utf-8">
+<script type="text/html" id="portfolioTmpl">
+  <li id="pfLI">
+      <a href="<%= url %>" target="_blank">
+      <p class="title">
+        <%= title %>
+      </p>
+      <img class="screenshot" src="<%= mainImg %>" />
+    </a>
+      <p class="desc">
+        <b class="subHead">GOAL</b>: <%= goal %>
+        <br><br>
+        <b class="subHead">CHALLENGES</b>: <%= challenge %>
+        <br><br>
+        <b class="subHead">PERSONAL EXPERIENCE</b>: <%= personalExp %>
+        <br>
+      </p>
+    </li>
+</script>
+
+<script type="text/html" id="materialTmpl">
+  <img src="<%= materials %>" alt="">
+</script>
+
   </head>
+
   <body>
     <header>
       <nav>
@@ -24,7 +48,7 @@
     </header>
 
     <div class="wrapper">
-        <img src="img/header.png" alt="" />
+        <img id="headerPic" src="img/header.png" alt="" />
 
         <section class="content">
 
@@ -97,28 +121,19 @@
 <!-- END CONTACT SECTION -->
 
 
-<!-- PORTFOLIO SECTION -->
+  <!-- PORTFOLIO SECTION -->
     <article rel="portfolio" class="portfolio hidden">
 
-        <section class="comingSoon">
-          <h1>PORTFOLIO | COMING SOON...</h1>
-        </section>
-
-      <!-- <section class="sub-content">
+      <section class="sub-content">
         <h2>PORTFOLIO</h2>
-          <ul>
-            <li>
-              <a href="portfolio/make-a-website/info.html">
-              <img src="portfolio/make-a-website/screenshot.png" alt="Make A Website Assignment" />
-              <p>Day One Assignment: Make A Website</p>
-              </a>
-            </li>
-          </ul>
-      </section> -->
-    </article>
-<!-- END PORTFOLIO SECTION -->
+          <ul id="portfolioList">
 
-        </section>
+          </ul>
+      </section>
+    </article>
+  <!-- END PORTFOLIO SECTION -->
+
+  </section>
 <!-- END CONTENT SECTION -->
 
 
@@ -136,6 +151,9 @@
   <script type="text/javascript" src="bower_components/moment/moment.js"></script></script>
 
 <!-- SCRIPTS -->
+  <script type="text/javascript" src="portfolio.js"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="templates.js"></script>
   <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

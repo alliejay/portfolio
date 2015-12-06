@@ -10,7 +10,7 @@ var page = {
   },
 
   initStyling: function () {
-
+    page.loadPortfolio();
   },
 
   initEvents: function () {
@@ -24,7 +24,7 @@ var page = {
       var selectedSection = "." + $(this).attr('rel');
       $(selectedSection).removeClass('hidden');
       $(selectedSection).siblings('article').addClass('hidden');
-    })
+    });
   },
 
   spanLinks: function() {
@@ -34,7 +34,15 @@ var page = {
       console.log(selectedSpanSection);
       $(selectedSpanSection).removeClass('hidden');
       $(selectedSpanSection).siblings('article').addClass('hidden');
-    })
+    });
+  },
+
+  loadPortfolio: function(){
+    var pfHTML ="";
+    var portfolioTemplate = _.template($('#portfolioTmpl').html());
+    _.each(assignments, function(el, idx, arr) {
+      $('#portfolioList').prepend(portfolioTemplate(el));
+    });
   }
 
 };
