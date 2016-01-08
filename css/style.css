@@ -353,29 +353,27 @@ th {
   padding: 0; }
 
 header {
-  height: 100px;
-  border-bottom: 1px solid #965163; }
+  height: 60px;
+  border-bottom: 1px solid #214642;
+  width: 100%;
+  display: fixed; }
+
+h1 {
+  font-family: 'Halant', serif; }
+
+h2 {
+  font-family: 'Playfair Display SC', serif; }
 
 a {
   text-decoration: none;
-  color: #965163;
+  color: #214642;
   font-weight: bold; }
   a:visited {
-    color: #965163; }
+    color: #214642; }
 
 span {
-  color: #965163;
+  color: #214642;
   font-weight: bold; }
-
-footer {
-  width: 100%;
-  height: 50px;
-  padding-top: 20px;
-  text-align: center;
-  color: #965163;
-  font-size: .5em;
-  font-family: "Lato", sans-serif;
-  clear: both; }
 
 .hidden {
   display: none; }
@@ -384,7 +382,7 @@ footer {
   font-family: "Lato", sans-serif;
   text-align: left; }
   .sub-content h2 {
-    color: #965163;
+    color: #214642;
     font-weight: bold;
     opacity: .5; }
 
@@ -400,7 +398,7 @@ footer {
 
 .logo {
   font-size: 1em;
-  color: #965163;
+  color: #214642;
   opacity: .75; }
   .logo h1 {
     font-family: "Merienda One", cursive;
@@ -409,13 +407,31 @@ footer {
     font-family: "Calligraffitti", cursive;
     margin: 5px 0 0 30px; }
 
-nav section {
-  width: 29%;
-  float: left; }
+#logo {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(../img/desl.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  #logo h1, #logo h2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    top: 200px;
+    font-size: 3.4em;
+    opacity: .8;
+    color: #FEFEFB; }
+  #logo h1 {
+    font-size: 4em; }
 
 nav ul {
-  width: 69%;
-  height: 100px;
+  width: 100%;
+  height: 60px;
   float: right;
   -webkit-columns: 5;
   -webkit-column-gap: 0;
@@ -427,25 +443,26 @@ nav ul {
 
 nav li {
   text-align: center;
-  padding-top: 35px;
+  padding-top: 20px;
   width: 100%;
-  height: 65px;
+  height: 40px;
   display: inline-block;
   transition: all 1s ease-in-out; }
   nav li:hover {
-    background-color: #DBACB9;
+    background-color: #53938C;
     font-size: 1.25em; }
   nav li a {
     font-family: "Lato", sans-serif;
-    color: #965163; }
+    color: #214642; }
     nav li a:visited {
-      color: #965163; }
+      color: #214642; }
 
 .about {
   width: 80%;
-  margin: 0 auto; }
+  margin: 3% auto; }
   .about blockquote {
-    color: #965163;
+    border-left: none;
+    color: #214642;
     font-size: 2em;
     font-family: "Lato", sans-serif;
     font-weight: normal;
@@ -469,7 +486,7 @@ nav li {
   font-family: "Lato", sans-serif;
   text-align: center; }
   .comingSoon h1 {
-    color: #965163;
+    color: #214642;
     font-weight: bold;
     opacity: .75; }
 
@@ -538,7 +555,7 @@ nav li {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #965163; }
+    border-bottom: 1px solid #214642; }
 
 .pfLI {
   height: auto; }
@@ -569,5 +586,23 @@ nav li {
   vertical-align: top; }
 
 .subHead {
-  color: #965163;
+  color: #214642;
   font-size: .9em; }
+
+footer {
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  clear: both; }
+  footer img {
+    width: 20px;
+    opacity: .7;
+    margin: 2px; }
+    footer img:hover {
+      opacity: 1; }
+  footer p {
+    color: #214642;
+    font-size: .65em;
+    font-family: "Lato", sans-serif;
+    margin: 5px 0; }

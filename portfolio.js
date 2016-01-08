@@ -61,6 +61,42 @@ var assignments = [
     goal: "Use constructors to create a game. The content of the game is open ended.",
     challenge: "Learn how to efficiently display your game on the browser.  The game cannot be console based.",
     personalExp: "I had the most fun with this assignment. I created a Star Wars game where you to travel to different planets/moons in order to save the galaxy. Displaying the game in the browser in an interseting way was a challenge, so I created each of the planets in <a href='https://www.gimp.org/' target='_blank'>GIMP</a> to add some fun to the screen. It may not display properly in some resolutions & the browser will have to be minimized in those cases."
+  },
+  {
+    name: "chromeExtension",
+    url: "https://github.com/alliejay/chrome-extension",
+    title: "Chrome Extension: Week 6",
+    mainImg: "portfolio/chrome.png",
+    goal: "Build a Chrome extension with little to no instruction.",
+    challenge: "Incorporate any API - open ended.",
+    personalExp: "It was an enjoyable challenge teaching myself how chrome extensions are built. I had minimal experience with API's, so that was a learning process as well. I find my extension rather useful, and I still use it on a regular basis."
+  },
+  {
+    name: "crimes",
+    url: "https://github.com/TIYCrime/Crimes",
+    title: "Group Project: Week 6",
+    mainImg: "portfolio/crimes.png",
+    goal: "Open ended group assignment. My group gathered, displayed, & filtered crime data for every U.S. state over the past 50+ years.",
+    challenge: "Each group consisted of both front & back end (Java) students - the first time we had ever collaborated with one another.",
+    personalExp: "This was our first encounter using Git in a group environment & we spent more time than we liked fixing merge conflicts. This was a valuable lesson in best practices for code organization and team communication."
+  },
+  {
+    name: "imbd-app",
+    url:  "https://github.com/alliejay/imbd-holiday-movies",
+    title: "IMBD Movie App: Week 7",
+    mainImg: "portfolio/imbd-app.png",
+    goal: "Create an IMBD-like application that lets you manage a list of movies.",
+    challenge: "Create the application using <a href='http://backbonejs.org/' target='_blank'>Backbone.js</a>.",
+    personalExp: "While this app is essentially just a CRUD application, it was our first project requiring the use of a JavaScript MVC framework. It took additional time to understand these new principles."
+  },
+  {
+    name: "pams",
+    url:  "https://github.com/PAMS-2015/PAMS-2015",
+    title: "PAMS: Final Project",
+    mainImg: "portfolio/pams.png",
+    goal: "Final project which is presented on Iron Yard's Demo Day. PAMS - Product Authentication & Management System.",
+    challenge: "PAMS ensures the authenticity of brand name products thereby protecting brands, retailers and consumers alike.",
+    personalExp: "This was my favorite part of my Iron Yard experience overall.  To have the opportunity to build a fully functioning app from scratch is a wonderfully unique experience.  I learned so much, and discovered how far I had come from my first week at The Iron Yard. I can now say that I am a Front End Engineer with the ability to build applications from the ground up - what could be better than that?"
   }
 
 ];

@@ -3,8 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Allie J. Arsenault | Web Development</title>
+    <!-- BOOTSTRAP -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Halant:400,300,600|Playfair+Display+SC:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Calligraffitti|Merienda+One|Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/style.css" media="screen" title="stylesheet" charset="utf-8">
+
+<!-- PORTFOLIO TEMPLATE -->
 <script type="text/html" id="portfolioTmpl">
   <li id="pfLI">
       <a href="<%= url %>" target="_blank">
@@ -23,32 +30,39 @@
       </p>
     </li>
 </script>
-
-<script type="text/html" id="materialTmpl">
-  <img src="<%= materials %>" alt="">
-</script>
+<!-- END TEMPLATE -->
 
   </head>
 
   <body>
     <header>
       <nav>
-        <section class="logo">
-          <h1>Allie J Arsenault</h1>
-          <h2>web development & design<h2>
-        </section>
         <ul>
-          <li rel="home"><a href="#">Home</a></li>
-          <li rel="about"><a href="#" >About</a></li>
-          <li rel="blog"><a href="#">Blog</a></li>
-          <li rel="portfolio"><a href="#">Portfolio</a></li>
-          <li rel="contact"><a href="#">Contact</a></li>
+          <li rel="home">
+            <!-- <a name="linktotop">Home</a></li> -->
+            <a href="#">Home</a></li>
+
+          <li rel="about">
+              <a href="#">About</a></li>
+
+          <li rel="blog">
+            <a href="#">Blog</a></li>
+
+          <li rel="portfolio">
+            <a href="#">Portfolio</a></li>
+
+          <li rel="contact">
+            <a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <div class="wrapper">
-        <img id="headerPic" src="img/header.png" alt="" />
+
+      <section id="logo">
+        <h1>Allie J. Arsenault</h1>
+        <h2>Web Development & Design</h2>
+      </section>
 
         <section class="content">
 
@@ -67,7 +81,7 @@
 
               <img src="img/pfpic.png" alt="" />
               <section class="sub-content">
-                <h2>ABOUT ALISON</h2>
+                <a name="linkToAbout"><h2>ABOUT ALISON</h2></a>
                 <p>
                   Albert Schweitzer's quote regarding success and happiness embodies the ideals which I believe whole-heartedly, and which have changed my life for the better in this past year.
                   </p>
@@ -97,12 +111,10 @@
 <!-- CONTACT SECTION -->
     <article rel="contact" class="contact hidden">
       <section class="big-col-2 sub-content">
-        <h2>CONTACT INFORMATION</h2>
+        <a name="linkToContact"><h2>CONTACT INFORMATION</h2></a>
         <p>
         It's always great to make new connections in the tech world, so feel free to add/follow me on social media!
-        </p>
-        <p>
-        I graduate from <a href="http://www.theironyard.com" target="_blank">The Iron Yard</a> in January of 2016, and will be looking for employment opportunities at that time. If you have any questions about my work experience or if you just want to connect, check out the listings on your right. The best way to contact me is via email, but I check my other social media accounts on a regular basis as well.
+      </p,mmm,m href="http://www.theironyard.com" target="_blank">The Iron Yard</a> in January of 2016, and will be looking for employment opportunities at that time. If you have any questions about my work experience or if you just want to connect, check out the listings on your right. The best way to contact me is via email, but I check my other social media accounts on a regular basis as well.
         </p>
       </section>
 
@@ -138,8 +150,12 @@
 
 
     <footer>
-      &copy; Allie J. Arsenault 2015<br>
-      <a href="http://www.entypo.com/" target="_blank">Entypo+</a> pictograms by Daniel Bruce.
+      <a href="https://github.com/alliejay" target="_blank"><img src="icons/github-with-circle.png" alt="Github"></a>
+      <a href="https://www.linkedin.com/in/alliejarsenault" target="_blank"><img src="icons/linkedin-with-circle.png" alt="Github"></a>
+      <a href="https://twitter.com/allieJarsenault" target="_blank"><img src="icons/twitter-with-circle.png" alt="Twitter"></a>
+      <br>
+      <p>&copy; Allie J. Arsenault 2015</p>
+      <p><a href="http://www.entypo.com/" target="_blank">Entypo+</a> pictograms by Daniel Bruce.</p>
     </footer>
     </div>
 
