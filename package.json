@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "metalsmith": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alliejay/alliejay.github.io.git"
+  },
+  "author": "Allie Arsenault",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alliejay/alliejay.github.io/issues"
+  },
+  "homepage": "https://github.com/alliejay/alliejay.github.io#readme"
+}

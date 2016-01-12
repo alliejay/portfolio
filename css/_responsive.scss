@@ -1,0 +1,92 @@
+// MAX 1000PX
+@media (max-width: 1000px) {
+
+    // LOGO
+    #logo {
+      height: 400px;
+      h1, h2 {
+        font-size: 2.6em;
+        top: 150px;
+      }
+    }
+
+    // ABOUT
+    .about {
+      width: 85%;
+      img {
+        width: 35%;
+      }
+    }
+
+    // BLOG
+    .blogPost {
+      width: 85%;
+    }
+
+    // CONTACT
+    .contact {
+      width: 100%;
+    }
+
+    // PORTFOLIO
+    .portfolio {
+      width: 85%;
+    }
+
+    .screenshot, .desc {
+      display: block;
+      width: 90%;
+      float: none;
+      margin: 20px auto 40px auto;
+    }
+}
+
+// MAX 750PX
+@media (max-width: 749px) {
+
+  // LOGO
+  #logo {
+    height: 300px;
+    h1, h2 {
+      font-size: 2em;
+      top: 100px;
+    }
+  }
+
+  // ABOUT
+  .about {
+    width: 90%;
+    blockquote {
+      font-size: 1.75em;
+    }
+    img {
+      width: 45%;
+    }
+  }
+
+  // BLOG
+  .blogPost {
+    width: 90%;
+  }
+
+  // CONTACT
+  .big-col-2, .contactAside {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .contactAside {
+    float: none;
+  }
+
+  .contact-info {
+    margin: 30px auto;
+  }
+
+  // PORTFOLIO
+  .portfolio {
+    width: 90%;
+  }
+
+}

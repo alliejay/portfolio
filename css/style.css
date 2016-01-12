@@ -352,6 +352,9 @@ td,
 th {
   padding: 0; }
 
+.test {
+  display: hidden; }
+
 header {
   height: 60px;
   border-bottom: 1px solid #214642;
@@ -359,10 +362,10 @@ header {
   display: fixed; }
 
 h1 {
-  font-family: 'Halant', serif; }
+  font-family: "Halant", serif; }
 
 h2 {
-  font-family: 'Playfair Display SC', serif; }
+  font-family: "Playfair Display SC", serif; }
 
 a {
   text-decoration: none;
@@ -401,10 +404,12 @@ span {
   color: #214642;
   opacity: .75; }
   .logo h1 {
-    font-family: "Merienda One", cursive;
+    width: 100%;
+    font-family: "Halant", serif;
     margin: 5px 0 0 20px; }
   .logo h2 {
-    font-family: "Calligraffitti", cursive;
+    width: 100%;
+    font-family: "Playfair Display SC", serif;
     margin: 5px 0 0 30px; }
 
 #logo {
@@ -414,7 +419,8 @@ span {
   background-image: url(../img/desl.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  transition: all 1s ease-in-out; }
   #logo h1, #logo h2 {
     margin: 0;
     padding: 0;
@@ -425,7 +431,8 @@ span {
     top: 200px;
     font-size: 3.4em;
     opacity: .8;
-    color: #FEFEFB; }
+    color: #FEFEFB;
+    transition: all 1s ease-in-out; }
   #logo h1 {
     font-size: 4em; }
 
@@ -433,7 +440,7 @@ nav ul {
   width: 100%;
   height: 60px;
   float: right;
-  -webkit-columns: 5;
+  -webkit-columns: 4;
   -webkit-column-gap: 0;
   -webkit-column-rule: 0;
   list-style-type: none;
@@ -459,7 +466,9 @@ nav li {
 
 .about {
   width: 80%;
-  margin: 3% auto; }
+  margin: 3% auto;
+  transition: all 1s ease-in-out;
+  line-height: 1.65em; }
   .about blockquote {
     border-left: none;
     color: #214642;
@@ -482,6 +491,36 @@ nav li {
     display: inline-block;
     opacity: .65; }
 
+.blogPost {
+  text-align: left;
+  width: 60%;
+  margin: 20px auto;
+  color: black;
+  opacity: .8;
+  transition: all 1s ease-in-out; }
+  .blogPost h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 5px; }
+  .blogPost h4 {
+    font-family: "Halant", serif;
+    text-align: center;
+    margin: 5px; }
+  .blogPost p {
+    line-height: 1.65em; }
+  .blogPost a:hover {
+    opacity: 1; }
+
+.likes {
+  text-align: center;
+  color: #214642; }
+  .likes img {
+    width: 18px;
+    margin: 5px; }
+
+.likeIt, span {
+  vertical-align: middle; }
+
 .comingSoon {
   font-family: "Lato", sans-serif;
   text-align: center; }
@@ -492,7 +531,9 @@ nav li {
 
 .contact {
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  line-height: 1.65em;
+  transition: all 1s ease-in-out; }
 
 .big-col-2 {
   width: 45%;
@@ -545,11 +586,20 @@ nav li {
   opacity: .75; }
 
 .portfolio {
+  transition: all 1s ease-in-out;
   width: 80%;
+  margin: 5% auto;
+  line-height: 1.65em; }
+  .portfolio h2 {
+    text-align: center; }
+
+.snippet {
+  width: 70%;
   margin: 0 auto; }
 
 #portfolioList {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-left: 0; }
   #portfolioList li {
     list-style-type: none;
     display: inline-block;
@@ -567,6 +617,7 @@ nav li {
   font-size: 1.6em; }
 
 .screenshot {
+  transition: all 1s ease-in-out;
   display: inline-block;
   float: left;
   width: 45%;
@@ -578,12 +629,13 @@ nav li {
     opacity: 1; }
 
 .desc {
+  transition: all 1s ease-in-out;
   display: inline-block;
   width: 45%;
   float: right; }
 
 .screenshot, .desc {
-  vertical-align: top; }
+  vertical-align: middle; }
 
 .subHead {
   color: #214642;
@@ -606,3 +658,50 @@ footer {
     font-size: .65em;
     font-family: "Lato", sans-serif;
     margin: 5px 0; }
+
+@media (max-width: 1000px) {
+  #logo {
+    height: 400px; }
+    #logo h1, #logo h2 {
+      font-size: 2.6em;
+      top: 150px; }
+  .about {
+    width: 85%; }
+    .about img {
+      width: 35%; }
+  .blogPost {
+    width: 85%; }
+  .contact {
+    width: 100%; }
+  .portfolio {
+    width: 85%; }
+  .screenshot, .desc {
+    display: block;
+    width: 90%;
+    float: none;
+    margin: 20px auto 40px auto; } }
+
+@media (max-width: 749px) {
+  #logo {
+    height: 300px; }
+    #logo h1, #logo h2 {
+      font-size: 2em;
+      top: 100px; }
+  .about {
+    width: 90%; }
+    .about blockquote {
+      font-size: 1.75em; }
+    .about img {
+      width: 45%; }
+  .blogPost {
+    width: 90%; }
+  .big-col-2, .contactAside {
+    display: block;
+    width: 85%;
+    margin: 0 auto; }
+  .contactAside {
+    float: none; }
+  .contact-info {
+    margin: 30px auto; }
+  .portfolio {
+    width: 90%; } }
