@@ -11,7 +11,6 @@ var page = {
 
   initStyling: function () {
     page.loadPortfolio();
-    page.likePost();
   },
 
   initEvents: function () {
@@ -22,9 +21,9 @@ var page = {
   navLinks: function() {
     $('nav').on('click', 'li', function(event) {
       event.preventDefault();
-      var selectedSection = "." + $(this).attr('rel');
-      $(selectedSection).removeClass('hidden');
-      $(selectedSection).siblings('article').addClass('hidden');
+          var selectedSection = "." + $(this).attr('rel');
+          $(selectedSection).removeClass('hidden');
+          $(selectedSection).siblings('article').addClass('hidden');
     });
   },
 
@@ -45,20 +44,5 @@ var page = {
       $('#portfolioList').prepend(portfolioTemplate(el));
     });
   },
-
-  likePost: function(){
-    var likes = 0;
-    $('.blogPost').on('click', '.likeIt', function(event){
-      if($('span').hasClass('liked')) {
-        console.log("Already liked bruh");
-      } else {
-        $('span').addClass('liked');
-        likes++;
-        $('.likes').html(
-          "<img src='icons/heart.png' class='likeIt'> <span>" + likes + " liked this</span>"
-        );
-      }
-    });
-  }
 
 };

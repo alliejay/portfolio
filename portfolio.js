@@ -90,13 +90,22 @@ var assignments = [
     personalExp: "While this app is essentially just a CRUD application, it was our first project requiring the use of a JavaScript MVC framework. It took additional time to understand these new principles."
   },
   {
+    name: "etsyChristmas",
+    url:  "http://alliejay.github.io/api-app/",
+    title: "Angular & API's: Week 8",
+    mainImg: "portfolio/etsyChristmas.png",
+    goal: "Open ended - create an application using AngularJS. I developed a Christmas planning tool which allows one to add lists to their own wishlist or to the giftlist, which is comprised of items they would like to give to others.",
+    challenge: "Incorporate an API of your choice.",
+    personalExp: "This was one of my first experiences with Angular, which I found more enjoyable than Backbone. API's are getting easier and easier to understand at this point as we have been experimenting with them for some time now."
+  },
+  {
     name: "pams",
     url:  "https://github.com/PAMS-2015/PAMS-2015",
     title: "PAMS: Final Project",
     mainImg: "portfolio/pams.png",
-    goal: "Final project which is presented on Iron Yard's Demo Day. PAMS - Product Authentication & Management System.",
+    goal: "This was our final project, which was presented live to approximately 100-150 local tech employers on Iron Yard's 'Demo Day.' My group's app was called <b>PAMS</b> - Product Authentication & Management System.",
     challenge: "PAMS ensures the authenticity of brand name products thereby protecting brands, retailers and consumers alike.",
-    personalExp: "This was my favorite part of my Iron Yard experience overall.  To have the opportunity to build a fully functioning app from scratch is a wonderfully unique experience.  I learned so much, and discovered how far I had come from my first week at The Iron Yard. I can now say that I am a Front End Engineer with the ability to build applications from the ground up - what could be better than that?"
+    personalExp: "This was my favorite part of my Iron Yard experience overall.  To have the opportunity to build a fully functioning app from scratch is a wonderfully unique experience.  I learned so much, and discovered how far I had come over the past three months."
   }
 
 ];
