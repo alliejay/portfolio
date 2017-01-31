@@ -100,7 +100,7 @@ var assignments = [
   },
   {
     name: "pams",
-    url:  "https://github.com/PAMS-2015/PAMS-2015",
+    url:  "https://github.com/alliejay/api-app",
     title: "PAMS: Final Project",
     mainImg: "portfolio/pams.png",
     goal: "This was our final project, which was presented live to approximately 100-150 local tech employers on Iron Yard's 'Demo Day.' My group's app was called <b>PAMS</b> - Product Authentication & Management System.",
