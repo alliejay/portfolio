@@ -46,7 +46,7 @@ var assignments = [
   },
   {
     name: "toDoList",
-    url: "http://alliejay.github.io/crud-todo/",
+    url: "https://github.com/alliejay/crud-todo",
     title: "To Do List: Week 4",
     mainImg: "portfolio/toDo.png",
     goal: "Create a To Do List that allows one to add tasks, mark tasks as complete and delete all completed tasks.  Double clicking on a task should allow you to edit it.",
@@ -91,7 +91,7 @@ var assignments = [
   },
   {
     name: "etsyChristmas",
-    url:  "http://alliejay.github.io/api-app/",
+    url:  "https://github.com/alliejay/api-app",
     title: "Angular & API's: Week 8",
     mainImg: "portfolio/etsyChristmas.png",
     goal: "Open ended - create an application using AngularJS. I developed a Christmas planning tool which allows one to add lists to their own wishlist or to the giftlist, which is comprised of items they would like to give to others.",
@@ -100,12 +100,12 @@ var assignments = [
   },
   {
     name: "pams",
-    url:  "https://github.com/alliejay/api-app",
+    url:  "https://github.com/PAMS-2015/PAMS-2015",
     title: "PAMS: Final Project",
     mainImg: "portfolio/pams.png",
     goal: "This was our final project, which was presented live to approximately 100-150 local tech employers on Iron Yard's 'Demo Day.' My group's app was called <b>PAMS</b> - Product Authentication & Management System.",
     challenge: "PAMS ensures the authenticity of brand name products thereby protecting brands, retailers and consumers alike.",
-    personalExp: "This was my favorite part of my Iron Yard experience overall.  To have the opportunity to build a fully functioning app from scratch is a wonderfully unique experience.  I learned so much, and discovered how far I had come over the past three months."
+    personalExp: "This was my favorite part of my Iron Yard experience overall.  To have the opportunity to build a fully functioning app from scratch is a wonderfully unique experience.  I learned so much, and discovered how far I had come over the past three o"
   }
 
 ];
