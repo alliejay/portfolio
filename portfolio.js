@@ -59,8 +59,8 @@ var assignments = [
     title: "Create A Game: Week 5",
     mainImg: "portfolio/starWars.png",
     goal: "Use constructors to create a game. The content of the game is open ended.",
-    challenge: "Learn how to efficiently display your game on the browser.  The game cannot be console based.",
-    personalExp: "I had the most fun with this assignment. I created a Star Wars game where you to travel to different planets/moons in order to save the galaxy. Displaying the game in the browser in an interseting way was a challenge, so I created each of the planets in <a href='https://www.gimp.org/' target='_blank'>GIMP</a> to add some fun to the screen. It may not display properly in some resolutions & the browser will have to be minimized in those cases."
+    challenge: "Learn how to efficiently display your game on the browser.  The game cannot be console based. The rules to the game can be read <a href='https://github.com/alliejay/constructor-game-star-wars/blob/master/README.md'>here</a>.",
+    personalExp: "I had the most fun with this assignment. I created a Star Wars game where you to travel to different planets/moons in order to save the galaxy. Displaying the game in the browser in an interesting way was a challenge, so I created each of the planets in <a href='https://www.gimp.org/' target='_blank'>GIMP</a> to add some fun to the screen. It may not display properly in some resolutions & the browser will have to be minimized in those cases."
   },
   {
     name: "chromeExtension",
